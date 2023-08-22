@@ -223,6 +223,159 @@ public class principal {
             System.out.printf("%d ", C[i]);
         }
     }
+    public static void ex11(){
+        Scanner sc = new Scanner(System.in);
+        int[] vet = new int[5];
+        int[] pares = new int[5];
+        int[] impares = new int[5];
+        int qtd_par = 0, qtd_impar = 0;
+        int i = 0, j = 0, k = 0;
+        for( i = 0; i < 5; i++){
+            System.out.println("Insira um valor para a posicao " + (i + 1));
+            vet[i] = sc.nextInt();
+            if(vet[i] % 2 == 0){
+                pares[k] = vet[i];
+                k++;
+            } else {
+                impares[j] = vet[i];
+                j++;
+            }
+        }
+        qtd_par = k;
+        qtd_impar = j;
+        System.out.print("Impares: ");
+        for(j = 0; j < qtd_impar; j++){
+            System.out.printf("%d, ", impares[j]);
+        }
+        System.out.print("Pares: ");
+        for(k = 0; k < qtd_par; k++){
+            System.out.printf("%d, ", pares[k]);
+        }
+    }
+    public static void ex12(){
+        Scanner sc = new Scanner(System.in);
+        int[] qtd_bolinhas = new int[4];
+        //Posicao -> cor de bolinhas
+        //0 -> Amarelo
+        //1 -> Azul
+        //2 -> Verde
+        //3 -> Vermelho
+        int qtd_total = 0;
+        float[] prob = new float[4];
+        //Posicao -> probabilidade de bolinhas
+        //0 -> Amarelo
+        //1 -> Azul
+        //2 -> Verde
+        //3 -> Vermelho
+
+        float maior_prob = 0;
+
+        System.out.println("Digite a quantidade de bolinhas: ");
+        System.out.println("Verde: ");
+        qtd_bolinhas[2] = sc.nextInt();
+        System.out.println("Amarela: ");
+        qtd_bolinhas[0] = sc.nextInt();
+        System.out.println("Azul: ");
+        qtd_bolinhas[1]  = sc.nextInt();
+        System.out.println("Vermelha: ");
+        qtd_bolinhas[3] = sc.nextInt();
+
+        for(int i = 0; i < 4; i++){
+            qtd_total += qtd_bolinhas[i];
+        }
+
+        for(int i = 0; i<4; i++){
+            prob[i] = (float) qtd_bolinhas[i]/qtd_total;
+            if(maior_prob < prob[i]){
+                maior_prob = prob[i];
+            }
+        }
+        System.out.println("Probabilidades");
+        System.out.printf("Amarelo: %.2f%%\n", 100 * prob[0]);
+        System.out.printf("Azul: %.2f%%\n", prob[1] * 100);
+        System.out.printf("Verde: %.2f%%\n", prob[2] * 100);
+        System.out.printf("Vermelho: %.2f%%\n", prob[3] * 100);
+        System.out.printf("Maior probabilidade: %.2f%%", 100 * maior_prob);
+    }
+    public static void ex13(){
+        Scanner sc = new Scanner(System.in);
+        int[] vet = new int[5];
+        for(int i = 0; i < 5; i++){
+            System.out.println("Entre com um numero: " + (i+1));
+            vet[i] = sc.nextInt();
+            if(vet[i] < 0){
+                vet[i] = 0;
+            }
+        }
+        System.out.println("Zerando negativos: ");
+        for(int i = 0; i < 5; i++){
+            System.out.printf("%d, ", vet[i]);
+        }
+    }
+    public static void ex14(){
+        Scanner sc = new Scanner(System.in);
+        int qtd_aluno;
+        System.out.println("Quantos alunos serao cadastrados?");
+        qtd_aluno = sc.nextInt();
+
+        if(qtd_aluno <= 10000){
+            String[] nome = new String[qtd_aluno];
+            String[] classe = new String[qtd_aluno];
+            float[] cra = new float[qtd_aluno];
+
+            System.out.println("CADASTRANDO ALUNOS: ");
+            for(int i = 0; i < qtd_aluno; i++){
+                System.out.println("Insira o nome do aluno " + (i+1));
+                sc.nextLine();
+                nome[i] = sc.nextLine();
+                System.out.println("Insira a classe do aluno" + (i+1));
+                classe[i] = sc.nextLine();
+                System.out.println("Insira o CRA do aluno" + (i+1));
+                cra[i] = sc.nextFloat();
+            }
+            System.out.println("MOSTRANDO DADOS: ");
+            for(int i = 0; i < qtd_aluno; i++){
+                System.out.println("Nome: " + nome[i]);
+                System.out.println("Classe: " + classe[i]);
+                System.out.println("CRA: " + cra[i]);
+            }
+        } else {
+            System.out.println("ERRO! O maximo de cadastros eh 10000");
+        }
+    }
+    public static void ex15(){
+        Scanner sc = new Scanner(System.in);
+        int[] vet = new int[8];
+        int qtd_repetidos = 0, retorno = 0;
+        for(int i = 0; i < 8; i++){
+            System.out.println("Entre com um numero " + (i+1));
+            vet[i] = sc.nextInt();
+            if(verificaRepetidos(vet, vet[i], retorno)){
+                qtd_repetidos++;
+            }
+        }
+        int[] repetidos = new int[qtd_repetidos];
+        int k = 0;
+        for(int i = 0; i < 8; i++){
+            if(verificaRepetidos(vet, vet[i], retorno)){
+                repetidos[k]  = retorno;
+            }
+        }
+        System.out.print("Valores repetidos: ");
+        for(int i = 0; i < qtd_repetidos; i++){
+            System.out.printf("%d, ", repetidos[i]);
+        }
+    }
+
+    public static boolean verificaRepetidos(int[] vet, int num, int ret){
+        for(int i = 0; i < vet.length; i++){
+            if(vet[i] == num){
+                ret = num;
+                return true;
+            }
+        }
+        return false;
+    }
     public static void main(String[] args) {
         //ex01();
         //ex02();
@@ -233,7 +386,12 @@ public class principal {
         //ex07();
         //ex08();
         //ex09();
-        ex10();
+        //ex10();
+        //ex11();
+        //ex12();
+        //ex13();
+        //ex14();
+        ex15();
     }
 
 
