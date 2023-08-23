@@ -346,35 +346,64 @@ public class principal {
     public static void ex15(){
         Scanner sc = new Scanner(System.in);
         int[] vet = new int[8];
-        int qtd_repetidos = 0, retorno = 0;
+        int[] repetidos = new int[8];
+        int j = 0;
         for(int i = 0; i < 8; i++){
             System.out.println("Entre com um numero " + (i+1));
             vet[i] = sc.nextInt();
-            if(verificaRepetidos(vet, vet[i], retorno)){
-                qtd_repetidos++;
-            }
         }
-        int[] repetidos = new int[qtd_repetidos];
-        int k = 0;
         for(int i = 0; i < 8; i++){
-            if(verificaRepetidos(vet, vet[i], retorno)){
-                repetidos[k]  = retorno;
+            if(contaRepeticaoDeNum(vet, vet[i]) > 1 && !contem(repetidos, vet[i])){
+                repetidos[j] = vet[i];
+                j++;
             }
         }
         System.out.print("Valores repetidos: ");
-        for(int i = 0; i < qtd_repetidos; i++){
-            System.out.printf("%d, ", repetidos[i]);
+        for(int i = 0; i < j; i++){
+            System.out.print(" ," + repetidos[i]);
         }
-    }
 
-    public static boolean verificaRepetidos(int[] vet, int num, int ret){
-        for(int i = 0; i < vet.length; i++){
+    }
+    public static boolean contem(int[] vet, int num){
+        for(int i = 0; i < 8; i++){
             if(vet[i] == num){
-                ret = num;
                 return true;
             }
         }
         return false;
+    }
+    public static int contaRepeticaoDeNum(int[] vet, int num){
+        int qtd_repeticao = 0;
+        for(int i = 0; i < 8; i++){
+            if(vet[i] == num){
+                qtd_repeticao++;
+            }
+        }
+        return qtd_repeticao;
+    }
+
+    public static void ex16(){
+        Scanner sc = new Scanner(System.in);
+        int[] vet = new int[8];
+        int[] repetidos = new int[8];
+        int[] aparicoes_repetidos = new int[8];
+        int j = 0;
+        for(int i = 0; i < 8; i++){
+            System.out.println("Entre com um numero " + (i+1));
+            vet[i] = sc.nextInt();
+        }
+
+        for(int i = 0; i < 8; i++){
+            if(contaRepeticaoDeNum(vet, vet[i]) > 1 && !contem(repetidos, vet[i])){
+                repetidos[j] = vet[i];
+                aparicoes_repetidos[j] = contaRepeticaoDeNum(vet, repetidos[j]);
+                j++;
+            }
+        }
+        System.out.println("Valores repetidos: ");
+        for (int i = 0; i < j; i++){
+            System.out.printf("%d, aparece %d vezes\n", repetidos[i], aparicoes_repetidos[i]);
+        }
     }
     public static void main(String[] args) {
         //ex01();
@@ -391,7 +420,8 @@ public class principal {
         //ex12();
         //ex13();
         //ex14();
-        ex15();
+        //ex15();
+        ex16();
     }
 
 
