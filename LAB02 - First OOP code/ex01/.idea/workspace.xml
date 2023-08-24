@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c57e4aff-5ca0-48ba-876f-cdc8f332869f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../enunciado.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/about.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ex02/about.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ex03/about.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ex04/about.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ex05/about.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LAB01 - Procedural/ex03/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LAB01 - Procedural/ex03/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LAB01 - Procedural/ex03/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LAB01 - Procedural/ex03/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LAB01 - Procedural/ex03/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LAB01 - Procedural/ex03/lista05_Vetores.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../LAB01 - Procedural/ex03/lista05_Vetores.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LAB01 - Procedural/ex03/~$sta05_Vetores.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../samples/TADProduto/exemplo08.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../samples/TADProduto/exemplo08.c" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2UR1nfPVv05NS3CwDFhpWYIAQUg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "Merging main"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c57e4aff-5ca0-48ba-876f-cdc8f332869f" name="Changes" comment="" />
+      <created>1692887747730</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1692887747730</updated>
+    </task>
+    <servers />
+  </component>
+</project>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4b4bf2dc-d885-48b4-a3cd-b1546b74bd36" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../samples/Abstracao/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/Abstracao/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/Abstracao/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/Abstracao/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/Abstracao/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/Abstracao/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/Abstracao/Estudantes/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/Abstracao/Estudantes/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/Abstracao/Estudantes/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/Abstracao/Estudantes/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/Abstracao/Estudantes/Estudantes.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/Abstracao/Estudantes/out/production/Estudantes/Estudante.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/Abstracao/Estudantes/out/production/Estudantes/EstudanteDoutorado.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/Abstracao/Estudantes/out/production/Estudantes/EstudanteGraduacao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/Abstracao/Estudantes/out/production/Estudantes/EstudanteMestrado.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/Abstracao/Estudantes/out/production/Estudantes/EstudantePosGrad.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/Abstracao/Estudantes/out/production/Estudantes/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/Abstracao/Estudantes/src/Estudante.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/Abstracao/Estudantes/src/EstudanteDoutorado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/Abstracao/Estudantes/src/EstudanteGraduacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/Abstracao/Estudantes/src/EstudanteMestrado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/Abstracao/Estudantes/src/EstudantePosGrad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/Abstracao/Estudantes/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/Abstracao/Estudantes/src/Teste.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/Abstracao/Polimorfismo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/Abstracao/out/production/Polimorfismo/EstudanteDoutorado.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/Abstracao/out/production/Polimorfismo/EstudanteGraduacao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/Abstracao/out/production/Polimorfismo/EstudanteMestrado.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/Abstracao/out/production/Polimorfismo/EstudantePosGrad.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/Abstracao/out/production/Polimorfismo/Teste.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/Inheritance/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/Inheritance/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/Inheritance/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/Inheritance/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/Inheritance/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/Inheritance/Inheritance.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/Inheritance/out/production/Inheritance/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/Inheritance/out/production/Inheritance/ProdutoPerecivel_v1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/Inheritance/out/production/Inheritance/ProdutoPerecivel_v2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/Inheritance/out/production/Inheritance/ProdutoPerecivel_v3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/Inheritance/out/production/Inheritance/ProdutoPerecivel_v4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/Inheritance/out/production/Inheritance/Produto_v1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/Inheritance/out/production/Inheritance/Produto_v2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/Inheritance/out/production/Inheritance/Produto_v3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/Inheritance/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/Inheritance/src/ProdutoPerecivel_v1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/Inheritance/src/ProdutoPerecivel_v2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/Inheritance/src/ProdutoPerecivel_v3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/Inheritance/src/ProdutoPerecivel_v4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/Inheritance/src/Produto_v1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/Inheritance/src/Produto_v2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/Inheritance/src/Produto_v3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/Polimorfismo/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/Polimorfismo/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/Polimorfismo/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/Polimorfismo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/Polimorfismo/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/Polimorfismo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/Polimorfismo/Estudante_UML.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/Polimorfismo/Estudantes/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/Polimorfismo/Estudantes/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/Polimorfismo/Estudantes/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/Polimorfismo/Estudantes/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/Polimorfismo/Estudantes/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/Polimorfismo/Estudantes/Estudantes.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/Polimorfismo/Estudantes/out/production/Estudantes/Estudante.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/Polimorfismo/Estudantes/out/production/Estudantes/EstudanteDoutorado.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/Polimorfismo/Estudantes/out/production/Estudantes/EstudanteGraduacao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/Polimorfismo/Estudantes/out/production/Estudantes/EstudanteMestrado.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/Polimorfismo/Estudantes/out/production/Estudantes/EstudantePosGrad.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/Polimorfismo/Estudantes/out/production/Estudantes/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/Polimorfismo/Estudantes/src/Estudante.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/Polimorfismo/Estudantes/src/EstudanteDoutorado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/Polimorfismo/Estudantes/src/EstudanteGraduacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/Polimorfismo/Estudantes/src/EstudanteMestrado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/Polimorfismo/Estudantes/src/EstudantePosGrad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/Polimorfismo/Estudantes/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/Polimorfismo/Polimorfismo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/Polimorfismo/out/production/Polimorfismo/Estudante.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/Polimorfismo/out/production/Polimorfismo/EstudanteDoutorado.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/Polimorfismo/out/production/Polimorfismo/EstudanteGraduacao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/Polimorfismo/out/production/Polimorfismo/EstudanteMestrado.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/Polimorfismo/out/production/Polimorfismo/EstudantePosGrad.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/Polimorfismo/out/production/Polimorfismo/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/TADProduto/exemplo01.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/TADProduto/exemplo02.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/TADProduto/exemplo03.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/TADProduto/exemplo04.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/TADProduto/exemplo05.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/TADProduto/exemplo06.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/TADProduto/exemplo07.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/TADProduto/exemplo07.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/TADProduto/exemplo08.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/TADProduto/exemplo08.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/TADProduto/exemplo09.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/TADProduto/produto.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/TADProduto/produto_e07.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/TADProduto/produto_e07.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/TADProduto/produto_e07.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/TADProduto/produto_e08.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/TADProduto/produto_e08.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/TADProduto/produto_e08.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/TesteJavaFX/demo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/TesteJavaFX/demo/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/TesteJavaFX/demo/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/TesteJavaFX/demo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/TesteJavaFX/demo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/TesteJavaFX/demo/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/TesteJavaFX/demo/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/TesteJavaFX/demo/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/TesteJavaFX/demo/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/TesteJavaFX/demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/TesteJavaFX/demo/src/main/java/com/example/demo/HelloApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/TesteJavaFX/demo/src/main/java/com/example/demo/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/TesteJavaFX/demo/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../samples/TesteJavaFX/demo/src/main/resources/com/example/demo/hello-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex03/~$sta05_Vetores.docx" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": -1
+}]]></component>
+  <component name="ProjectId" id="2UJRauqX3PfPDgdwAoaK01rslmj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "Merging main"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4b4bf2dc-d885-48b4-a3cd-b1546b74bd36" name="Changes" comment="" />
+      <created>1692655765141</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1692655765141</updated>
+    </task>
+    <servers />
+  </component>
+</project>
