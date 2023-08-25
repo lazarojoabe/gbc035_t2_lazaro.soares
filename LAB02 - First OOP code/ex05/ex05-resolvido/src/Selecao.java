@@ -2,12 +2,11 @@ public class Selecao {
     private String nome;
     private  String tecnico;
     private int qtd_mundiais;
-    //Figurinha[] jogadores = new Figurinha[11];
+    Figurinha[] jogadores = new Figurinha[11];
 
     public Selecao(String nome, String tecnico){
         this.nome = nome;
         this.tecnico = tecnico;
-        Figurinha[] jogadores = new Figurinha[11];
         jogadores[0] = new Figurinha(nome);
         jogadores[1] = new Figurinha(nome);
         jogadores[2] = new Figurinha(nome);
@@ -37,8 +36,8 @@ public class Selecao {
         System.out.println("Tecnico: " + tecnico);
         System.out.printf("Ganhou a Copa do Mundo %d vezes\n", qtd_mundiais);
         System.out.println("Jogadores titulares: ");
-        //for(int i = 0; i < 11; i++){
-        //    jogadores[i].mostrarInfo();
-        //}
+        for(int i = 0; i< 11; i++){
+            jogadores[i].mostrarInfo();
+        }
     }
 }
