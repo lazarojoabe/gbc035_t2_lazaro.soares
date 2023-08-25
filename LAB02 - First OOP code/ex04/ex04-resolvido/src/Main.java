@@ -31,8 +31,7 @@ public class Main {
         brasil.jogadores[10].setPosicao("Ponta-Direita");
         brasil.jogadores[10].setPais("Brasil");
         brasil.getInfo();
-
-
+        
         argentina.jogadores[0].setNome("Lionel Messi");
         argentina.jogadores[0].setAltura(1.67f);
         argentina.jogadores[0].setPeso(70.6f);
