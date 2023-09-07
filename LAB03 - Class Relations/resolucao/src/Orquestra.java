@@ -9,9 +9,7 @@ public class Orquestra {
         this.qtd_musico = qtd_musico;
         this.qtd_naipe = qtd_naipe;
     }
-    public void cadastrarMusicos(){
-        for()
-    }
+
     public void getInfo(){
         System.out.println("Qtd de musicos: " + qtd_musico);
         System.out.println("Maestro: " + maestro);

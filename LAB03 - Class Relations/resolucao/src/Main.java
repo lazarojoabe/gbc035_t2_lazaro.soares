@@ -1,5 +1,8 @@
 public class Main {
-    public static void main(String[] args) {
-
+    public static void ex01(){
+        Pessoa p = new Pessoa();
+        p.setNome("Lazaro");
+        p.setIdade(19);
+        p.setIdade();
     }
 }
