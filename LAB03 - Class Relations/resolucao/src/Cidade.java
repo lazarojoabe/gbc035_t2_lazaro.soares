@@ -12,7 +12,7 @@ public class Cidade {
     }
 
     public String getNome() {
-        return nome;
+        return nomeCidade;
     }
 
     public int getQtd_habitantes() {
