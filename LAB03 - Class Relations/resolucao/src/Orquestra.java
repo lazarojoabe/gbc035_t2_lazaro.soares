@@ -10,25 +10,21 @@ public class Orquestra {
         this.qtd_musico = qtd_musico;
         maestro = new Musico();
         maestro.setNome(maesto);
-        Musico[] musicos = new Musico[qtd_musico];
-        String[] instrumentos = new String[qtd_musico];
+        musicos = new Musico[qtd_musico];
+        instrumentos = new String[qtd_musico];
     }
-    public void adcionarMusico(){
+    public void adcionarMusicos(){
         Scanner sc = new Scanner(System.in);
         String nome, instrumento;
         for(int i = 0; i < qtd_musico; i++){
-            Musico musico = new Musico();
-            String instrumentos = new String();
-            sc.nextLine();
+            musicos[i] = new Musico();
             System.out.println("Insira o nome do musico " + (i + 1));
             nome = sc.nextLine();
-            musico.setNome(nome);
+            musicos[i].setNome(nome);
             System.out.println("Insira o instrumento do musico " + (i + 1));
-            instrumento = sc.nextLine();
-            musico.setInstrumento(instrumento);
-            musicos[i] = musico;
-            instrumentos[i] = instrumentos;
-
+            instrumentos[i] = sc.nextLine();
+            musicos[i].setInstrumento(instrumentos[i]);
+            //instrumentos[i] = musicos[i].getInstrumento();
         }
     }
     public void mostrarInfo(){
@@ -36,7 +32,7 @@ public class Orquestra {
         System.out.println("Maestro: " + maestro.getNome());
         System.out.println("Musicos: ");
         for (int i = 0; i < qtd_musico; i++) {
-            System.out.printf("Nome: %s, Instrumento: %s", musicos[i].getNome(), instrumentos[i].);
+            System.out.printf("Nome: %s, Instrumento: %s\n", musicos[i].getNome(), instrumentos[i]);
         }
 
     }
