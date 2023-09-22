@@ -6,13 +6,14 @@ public class Figurinhas {
     private String pais;
     private String posicao;
 
-    public Figurinhas(String nome, String posicao, String pais){
+    public Figurinhas(String nome, String posicao, String pais, String data_nasc, float peso,
+                      float altura){
         this.nome = nome;
         this.pais = pais;
         this.posicao = posicao;
-        this.altura = 0.00f;
-        this.data_nasc = "00/00/0000";
-        this.peso = 0.0f;
+        this.altura = altura;
+        this.data_nasc = data_nasc;
+        this.peso = peso;
     }
     public void setNome(String nome) {
         this.nome = nome;

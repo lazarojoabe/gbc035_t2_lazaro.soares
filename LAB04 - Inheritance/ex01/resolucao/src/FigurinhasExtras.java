@@ -5,10 +5,7 @@ public class FigurinhasExtras {
 
     public FigurinhasExtras(String nome, String posicao, String pais, String categoria,
                             String cor, float altura, String Data_nasc, float peso){
-        dados_basicos = new Figurinhas(nome, posicao, pais);
-        dados_basicos.setData_nasc(Data_nasc);
-        dados_basicos.setAltura(altura);
-        dados_basicos.setPeso(peso);
+        dados_basicos = new Figurinhas(nome,  posicao, pais, Data_nasc, peso, altura);
         this.categoria = categoria;
         this.cor = cor;
     }

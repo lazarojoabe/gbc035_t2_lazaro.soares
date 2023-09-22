@@ -4,6 +4,9 @@ public class C1 {
     protected String atributoC;
     public C1(){
         System.out.println("Classe C1: Chamada do construtor sem parametros");
+        atributoA = "//";
+        atributoB = "//";
+        atributoC = "//";
     }
     public C1(String atributoA, String atributoB, String atributoC){
         System.out.println("Classe C1: Chamada do construtor com parametros");
@@ -16,6 +19,10 @@ public class C1 {
         System.out.println("Atributo A: "+ atributoA);
         System.out.println("Atributo B: "+ atributoB);
         System.out.println("Atributo C: "+ atributoC);
+    }
+
+    public void mostrarAtributosSuper(){
+        mostrarAtributos();
     }
 
     public String getAtributoA() {

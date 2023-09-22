@@ -6,18 +6,24 @@ public class C2 extends C1{
     public C2(){
         System.out.println("Classe C2: Chamada do construtor sem parametros");
     }
-    public C2(String atributoA, String atributoB, String atributoC){
+    public C2(String AtributoA, String AtributoB, String AtributoC, String AtributoC1A,
+              String AtributoC1B,  String AtributoC1C) {
+        super(AtributoC1A, AtributoC1B, AtributoC1C);
         System.out.println("Classe C2: Chamada do construtor com parametros");
-        this.AtributoA = atributoA;
-        this.AtributoB = atributoB;
-        this.AtributoC = atributoC;
+        this.AtributoA = AtributoA;
+        this.AtributoB = AtributoB;
+        this.AtributoC = AtributoC;
     }
 
-    @Override
-    public void mostrarAtributos(){
-        System.out.println("Atributo C1.A: " + getAtributoA());
-        System.out.println("Atributo C1.B: " + atributoB);
-        System.out.println("Atributo C1.C: " + atributoC);
+    public void mostrarAtributosC2(){
+        mostrarAtributos();
+        System.out.println("Atributo A: "+ AtributoA);
+        System.out.println("Atributo B: "+ AtributoB);
+        System.out.println("Atributo C: "+ AtributoC);
+    }
+
+    public void mostrarAtributosSuper() {
+        super.mostrarAtributos();
         System.out.println("Atributo A: "+ AtributoA);
         System.out.println("Atributo B: "+ AtributoB);
         System.out.println("Atributo C: "+ AtributoC);
