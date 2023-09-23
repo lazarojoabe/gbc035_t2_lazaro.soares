@@ -10,11 +10,18 @@ public class Funcionario {
         data_nasc = "00/00/0000";
         salario = 0.0;
     }
+    public Funcionario(String nome, String data_nasc){
+        this.nome = nome;
+        this.data_nasc = data_nasc;
+        salario = 0;
+    }
     public Funcionario(String nome, String data_nasc, double salario){
         this.data_nasc = data_nasc;
         this.nome = nome;
         this.salario = salario;
     }
+
+
 
     public double calcSalario(){
         return salario;
