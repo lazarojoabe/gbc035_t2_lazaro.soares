@@ -16,7 +16,7 @@ public class C3 extends C2{
     }
 
     public void mostrarAtributosC3(){
-        super.mostrarAtributos();
+        mostrarAtributosC2();
         System.out.println("Atributo A: "+ atributoA);
         System.out.println("Atributo B: "+ atributoB);
         System.out.println("Atributo C: "+ atributoC);
