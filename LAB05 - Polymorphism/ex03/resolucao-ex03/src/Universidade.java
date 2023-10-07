@@ -14,17 +14,28 @@ public class Universidade {
         for (Estudante i : alunos){
             if(i instanceof EstudanteGraduacao){
                 qtdGraduacao++;
-            } else if(i instanceof EstudanteMestrado){
-                qtdMestrado++;
-            } else if(i instanceof EstudanteDoutorado){
-                qtdDoutorado++;
+            } else if(i instanceof EstudantePosGrad){
+                if(i instanceof EstudanteMestrado){
+                    qtdMestrado++;
+                } else if (i instanceof  EstudanteDoutorado){
+                    qtdDoutorado++;
+                }
             }
         }
-
-        System.out.printf("Há %d estudantes de Graduação, %d de mestrado, e %d de Doutorado ",
+        System.out.printf("Há %d estudantes de Graduação, %d de mestrado, e %d de Doutorado\n",
                 qtdGraduacao, qtdMestrado, qtdDoutorado);
     }
 
+
+    public void mostarInfoAlunos(){
+        for(Estudante i : alunos){
+            System.out.println("Nome: " + i.getNome());
+            if(i instanceof EstudanteDoutorado){
+                System.out.printf("%s eh aluno de doutorado, e o titulo da sua" +
+                        "linha de pesquisa eh %s", i.getNome(), ((EstudanteDoutorado) i).getTituloTese());
+            }
+        }
+    }
     public String getNome() {
         return nome;
     }

@@ -47,10 +47,37 @@ public class Main {
         vet[3] = epm2;
         vet[4] = epd2;
 
-        u.setAlunos(vet);
-        u.mostrarQtdAlunos();
+        //u.setAlunos(vet);
+        //u.mostrarQtdAlunos();
+        //u.mostarInfoAlunos();
 
-        
+        int qtdAlunoPos = 0;
+        for(Estudante i : vet){
+            if(i instanceof EstudantePosGrad)
+                qtdAlunoPos++;
+        }
+        EstudantePosGrad[] newVet = new EstudantePosGrad[qtdAlunoPos];
+
+        for(int i = 0, k = 0; i < vet.length; i++){
+            if(vet[i] instanceof EstudantePosGrad){
+                newVet[k] = new EstudantePosGrad(vet[i].getNome(), vet[i].getEndereco(), ((EstudantePosGrad) vet[i]).getFormacao(), ((EstudantePosGrad) vet[i]).getLinhaDePesquisa());
+                k++;
+            }
+        }
+        u.setAlunos(newVet);
+        for(EstudantePosGrad i : newVet){
+            System.out.println("Nome: " + i.getNome());
+            System.out.println("Endereco: " + i.getEndereco());
+            System.out.println("Formação: " + i.getFormacao());
+            System.out.println("Linha de Pesquisa: " + i.getLinhaDePesquisa());
+            if(i instanceof EstudanteMestrado){
+                System.out.println("Tipo: " + ((EstudanteMestrado) i).getTipo());
+                System.out.println("Titulo Dissertação: " + ((EstudanteMestrado)i).getTituloDissertacao());
+            } else if(i instanceof EstudanteDoutorado){
+                System.out.println("Titulo Tese: " + ((EstudanteDoutorado)i).getTituloTese());
+            }
+        }
+
         // exemplo de uso com vetor e com CAST
         /*Estudante[] ev = new Estudante[4];
         ev[0] = eg;
