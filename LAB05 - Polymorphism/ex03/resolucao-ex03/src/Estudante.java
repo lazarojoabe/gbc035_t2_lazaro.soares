@@ -8,12 +8,21 @@ public class Estudante {
     }
 
     public void print() {
-        System.out.println("Estudante{" +
+        System.out.print("Estudante{" +
                 "nome='" + nome + '\'' +
-                ", endereco='" + endereco + '\'' +
+                "; endereco='" + endereco + '\'' +
                 '}');
     }
 
+    public void print(boolean mesmaLinha){
+        if(mesmaLinha){
+            print();
+        } else {
+            System.out.println("Estudande");
+            System.out.println("Nome: " + nome);
+            System.out.println("Endereco: " + endereco);
+        }
+    }
     public String getNome() {
         return nome;
     }
@@ -29,5 +38,6 @@ public class Estudante {
     public void setEndereco(String endereco) {
         this.endereco = endereco;
     }
+
 
 }

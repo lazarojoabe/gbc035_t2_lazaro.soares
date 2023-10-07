@@ -16,6 +16,19 @@ public class EstudanteDoutorado extends EstudantePosGrad {
 
     }
 
+    @Override
+    public void print(boolean mesmaLiha){
+        if(mesmaLiha){
+            print();
+        } else {
+            System.out.println("Nome: " + getNome());
+            System.out.println("Enderco: " + getEndereco());
+            System.out.println("Título tese: " + getTituloTese());
+            System.out.println("Formação: " + getFormacao());
+            System.out.println("Linha de pesquisa: " + getLinhaDePesquisa());
+            System.out.println("Titulo da Tese: " + getTituloTese());
+        }
+    }
     public String getTituloTese() {
         return tituloTese;
     }

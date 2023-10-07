@@ -46,7 +46,6 @@ public class Main {
         vet[2] = ep2;
         vet[3] = epm2;
         vet[4] = epd2;
-
         //u.setAlunos(vet);
         //u.mostrarQtdAlunos();
         //u.mostarInfoAlunos();
@@ -65,7 +64,15 @@ public class Main {
             }
         }
         u.setAlunos(newVet);
-        for(EstudantePosGrad i : newVet){
+        /* RESPOSTA E): Não é possível utilizar o print(booleana) tendo como base um vetor
+           da classe Estudante, pois esse método é fruto de uma sobrecarga que ocorre em classes
+           especializadas em relação a Estudante.
+                Para que o uso seja possível é necessário fazer a sobrecarga do método print()
+                na própria classe Estudante, gerando o print(boolean a). A partir disso,
+                deve ser feito a sobrescrita desse método - print(boolean a) - nas classes
+                especializadas para que seja mostrado todos os atributos dessas classes
+        */
+        /*for(EstudantePosGrad i : newVet){
             System.out.println("Nome: " + i.getNome());
             System.out.println("Endereco: " + i.getEndereco());
             System.out.println("Formação: " + i.getFormacao());
@@ -77,7 +84,8 @@ public class Main {
                 System.out.println("Titulo Tese: " + ((EstudanteDoutorado)i).getTituloTese());
             }
         }
-
+        */
+        ((EstudanteDoutorado) epd2).print(true);
         // exemplo de uso com vetor e com CAST
         /*Estudante[] ev = new Estudante[4];
         ev[0] = eg;

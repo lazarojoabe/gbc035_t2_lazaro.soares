@@ -11,7 +11,7 @@ public class EstudantePosGrad extends Estudante {
 
     public void print() {
         super.print();
-        System.out.println("EstudantePosGrad{" +
+        System.out.print("EstudantePosGrad{" +
                 "formacao='" + formacao + '\'' +
                 ", linhadDePesquisa='" + linhaDePesquisa + '\'' +
                 '}');

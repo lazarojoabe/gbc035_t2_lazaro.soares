@@ -14,10 +14,21 @@ public class EstudanteMestrado extends EstudantePosGrad {
         super.print();
         System.out.println("EstudanteMestrado{" +
                 "tipo='" + tipo + '\'' +
-                ", tituloDissertacao='" + tituloDissertacao + '\'' +
+                "; tituloDissertacao='" + tituloDissertacao + '\'' +
                 '}');
     }
 
+    @Override
+    public void print(boolean mesmaLiha){
+        if(mesmaLiha){
+            print();
+        } else {
+            System.out.println("Nome: " + getNome());
+            System.out.println("Enderco: " + getEndereco());
+            System.out.println("Formação: " + getFormacao());
+            System.out.println("Linha de pesquisa: " + getLinhaDePesquisa());
+        }
+    }
     public String getTipo() {
         return tipo;
     }
