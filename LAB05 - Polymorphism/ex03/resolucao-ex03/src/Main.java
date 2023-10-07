@@ -72,7 +72,7 @@ public class Main {
                 deve ser feito a sobrescrita desse método - print(boolean a) - nas classes
                 especializadas para que seja mostrado todos os atributos dessas classes
         */
-        /*for(EstudantePosGrad i : newVet){
+        for(EstudantePosGrad i : newVet){
             System.out.println("Nome: " + i.getNome());
             System.out.println("Endereco: " + i.getEndereco());
             System.out.println("Formação: " + i.getFormacao());
@@ -84,8 +84,8 @@ public class Main {
                 System.out.println("Titulo Tese: " + ((EstudanteDoutorado)i).getTituloTese());
             }
         }
-        */
-        ((EstudanteDoutorado) epd2).print(true);
+
+        epd2.print(true);
         // exemplo de uso com vetor e com CAST
         /*Estudante[] ev = new Estudante[4];
         ev[0] = eg;
