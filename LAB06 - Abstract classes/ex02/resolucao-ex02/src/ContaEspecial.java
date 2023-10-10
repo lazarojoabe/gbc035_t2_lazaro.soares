@@ -6,6 +6,7 @@ public class ContaEspecial extends ContaCorrente{
         this.limite = limite;
         if(limite == 0){
             ContaComum cm = new ContaComum(val, num, pwd);
+            cm.setEstado(pwd, getEstado(pwd));
         }
     }
 
@@ -24,6 +25,9 @@ public class ContaEspecial extends ContaCorrente{
         if(limite > 0){
             if (getSaldo(pwd) == 0)
                 setEstado(pwd, 1); // a conta permanece ativa
+        } else {
+            if (getSaldo(pwd) == 0)
+                setEstado(pwd, 2); // em caso de a conta, por ter limite = 0, ser comum
         }
         return true;
     }
