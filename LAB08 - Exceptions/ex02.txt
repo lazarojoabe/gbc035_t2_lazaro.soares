@@ -1,0 +1,7 @@
+THROW: este comando possibilita o programador lançar uma exceção, indicando qual será lançada.
+
+THROWS: já este comando informa que determidado trecho de código poderá lançar uma exceção entre uma lista, permitindo a quem chamou tratar a exceção ou passá-la adiante.
+
+CHECKED: São exceções em que quem chamou os métodos que a lançou é obrigado a tratá-la, seja em bloco ty-catch ou thorws.
+
+UNCHECKED: São exceções que não são obrigatoriamente tratáveis e, automaticamente, relançam a exceção devido a um throws implícito no método que as criou.
