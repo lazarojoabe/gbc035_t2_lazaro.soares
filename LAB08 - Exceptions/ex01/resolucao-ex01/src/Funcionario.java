@@ -11,7 +11,7 @@ public class Funcionario {
         tetoSalarial = 40000;
     }
 
-    public void aumentarSalario(double porcentagem){
+    public void aumentarSalario(double porcentagem) throws Excecao{
         if(porcentagem < 0){
             throw new Excecao("Valor negativo");
         } else if(salario*(1 + porcentagem) > tetoSalarial) {
