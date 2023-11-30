@@ -1,0 +1,6 @@
+Data de Realização: 26/11/2023 / Hora de Pagamento: 23:36:41 / Valor total: 25.0
+Data de Realização: 27/11/2023 / Hora de Pagamento: 00:05:20 / Valor total: 25.0
+Data de Realização: 28/11/2023 / Hora de Pagamento: 13:46:24 / Valor total: 31.0
+Data de Realização: 29/11/2023 / Hora de Pagamento: 12:06:50 / Valor total: 25.0
+Data de Realização: 29/11/2023 / Hora de Pagamento: 12:30:35 / Valor total: 20.0
+Data de Realização: 30/11/2023 / Hora de Pagamento: 10:31:24 / Valor total: 37.0
